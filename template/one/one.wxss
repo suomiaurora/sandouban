@@ -1,0 +1,16 @@
+.content{
+  flex: 1;
+}
+.mContainer>view:nth-child(2){
+  margin: 0 65rpx;
+}
+
+.content>.m-img{
+  width: 190rpx;
+  height: 260rpx;
+
+}
+.m-img>image{
+  width: 190rpx;
+  height: 260rpx;
+}

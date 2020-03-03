@@ -1,0 +1,5 @@
+<!--pages/more/more.wxml-->
+<import src="../../template/one/one.wxml" />
+<view class="mContainer" wx:for="{{moveList}}" wx:key="index">
+  <template is="one" data="{{item}}" />
+</view> 

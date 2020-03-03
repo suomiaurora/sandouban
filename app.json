@@ -1,0 +1,13 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/more/more"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#048A56",
+    "navigationBarTitleText": "豆瓣网",
+    "navigationBarTextStyle": "white"
+  },
+  "sitemapLocation": "sitemap61.json"
+}

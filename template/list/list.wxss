@@ -1,0 +1,39 @@
+@import "../one/one.wxss" ;
+.b-top{
+  display: flex;
+}
+.b-title{
+  flex: 9;
+  margin-left: 10rpx;
+  
+}
+.more{
+  flex: 1
+}
+
+.mContainer{
+  margin: 10rpx 20rpx;
+  display: flex
+}
+.mContainer .title{
+  width: 190rpx;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+/* .content{
+  flex: 1;
+}
+.mContainer>view:nth-child(2){
+  margin: 0 65rpx;
+}
+
+.content>.m-img{
+  width: 190rpx;
+  height: 260rpx;
+
+}
+.m-img>image{
+  width: 190rpx;
+  height: 260rpx;
+} */

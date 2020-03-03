@@ -1,0 +1,6 @@
+<!--pages/index/index.wxml-->
+<import src="../../template/list/list.wxml" />
+
+<template is="list" data="{{temp:nows}}" />
+<template is="list" data="{{temp:coming}}" />
+<template is="list" data="{{temp:top250}}" />

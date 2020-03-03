@@ -1,0 +1,8 @@
+<template name="one">
+  <view class="content">
+    <view class="m-img">
+      <image src="{{item.images.large}}"></image>
+    </view>
+    <view class="title">{{item.title}}</view>
+  </view>
+</template>

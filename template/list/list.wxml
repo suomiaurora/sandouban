@@ -1,0 +1,23 @@
+<import src="../one/one.wxml" />
+<template name="list">
+  <view class="box">
+    <view class="b-top">
+      <view class="b-title">{{temp.title}}</view>
+       <navigator url="../../pages/more/more?mytype={{temp.more}}" class="more">更多</navigator>
+    </view>
+    <view class="mContainer">
+      <!-- <view class="content">
+      <view class="m-img">
+        <image src="../../images/12.png"></image>
+      </view>
+      <view class="title">无双</view>
+    </view> -->
+
+    <!-- 遍历每个数组list -->
+      <view wx:for="{{temp.list}}" wx:key="index">
+        <template is="one" data="{{item}}" />
+      </view>
+
+    </view>
+  </view>
+</template>

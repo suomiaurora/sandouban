@@ -1,0 +1,13 @@
+/* pages/more/more.wxss */
+@import "../../template/one/one.wxss" ;
+.mContainer{
+  margin: 10rpx 20rpx;
+  float: left
+
+}
+.mContainer .title{
+  width: 190rpx;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
